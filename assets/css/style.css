@@ -111,12 +111,6 @@ h1 {
 /*** ESTILOS DESKTOP ***/
 @media (min-width: 1024px) {
     /* tamaño fuentes */
-    /* p {
-        font-size: 1rem;
-    }
-    h2 {
-        font-size: 2rem;
-    } */
     h1 {
         font-size: 2rem;
     }
