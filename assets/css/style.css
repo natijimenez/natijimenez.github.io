@@ -1,0 +1,16 @@
+/*** ESTILOS MOBILE ***/
+/* estilos generales */
+
+/* estilos sección navbar */
+.navbar {
+    background-color: #6fdcbf;
+}
+.contenedor-navbar .navbar-collapse {
+    flex-grow: 0;
+}
+.contenedor-navbar {
+    width: 90%;
+}
+.contenedor-navbar .nav-link {
+    text-align: center;
+}
