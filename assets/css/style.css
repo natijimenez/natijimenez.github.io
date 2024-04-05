@@ -148,6 +148,22 @@ h1 {
     font-size: 0.8rem;
 }
 
+/* estilos sección portafolio */
+#CONTENEDOR-LANDING .seccion-portafolio {
+    text-align: center;
+    margin-top: 5rem;
+}
+#CONTENEDOR-LANDING .contenedor-proyectos-mb {
+    display: block;
+}
+#CONTENEDOR-LANDING .contenedor-proyectos-desk {
+    display: none;
+}
+#CONTENEDOR-LANDING .contenedor-proyectos-mb img {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
 /*** ESTILOS TABLET ***/
 @media (min-width: 768px) {
     /* estilos sección header*/
@@ -162,6 +178,20 @@ h1 {
     }
     #CONTENEDOR-LANDING .texto-box-derecha {
         top: 65%;
+    }
+    /* estilos sección portafolio */
+    #CONTENEDOR-LANDING .contenedor-proyectos-mb {
+        display: none;
+    }
+    #CONTENEDOR-LANDING .contenedor-proyectos-desk {
+        display: block;
+    }
+    #CONTENEDOR-LANDING .contenedor-proyectos-desk img {
+        padding: 3px;
+        transition: transform .3s;
+    }
+    #CONTENEDOR-LANDING .contenedor-proyectos-desk img:hover {
+        transform: scale(1.03);
     }
 }
 
@@ -232,5 +262,7 @@ h1 {
     #CONTENEDOR-LANDING .contenedor-carrusel-experiencia p {
         font-size: 1rem;
     }
+
+
 }
 
