@@ -22,6 +22,7 @@ p {
 h2 {
     font-size: 1.2rem;
     font-weight: 700;
+    margin-bottom: 2rem;
 }
 h1 {
     font-size: 1.8rem;
@@ -97,7 +98,7 @@ h1 {
     display: block;
 }
 #CONTENEDOR-LANDING .contenedor-formacion {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 #CONTENEDOR-LANDING .seccion-formacion img {
     width: 30%;
@@ -114,7 +115,7 @@ h1 {
     margin-top: 5rem;
 }
 #CONTENEDOR-LANDING h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 #CONTENEDOR-LANDING .contenedor-iconos-herramientas {
     display: flex;
@@ -125,13 +126,27 @@ h1 {
 }
 .contenedor-icono1 {
     flex: 30%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 #CONTENEDOR-LANDING .seccion-herramientas img {
     max-width: 60px;
-    
 }
 
+/* estilos sección experiencia */
+#CONTENEDOR-LANDING .seccion-experiencia {
+    text-align: center;
+    margin-top: 5rem;
+}
+#CONTENEDOR-LANDING .contenedor-carrusel-experiencia {
+    width: 100%;
+    margin: auto;
+}
+#CONTENEDOR-LANDING .contenedor-carrusel-experiencia h5 {
+    font-size: 1rem;
+}
+#CONTENEDOR-LANDING .contenedor-carrusel-experiencia p {
+    font-size: 0.8rem;
+}
 
 /*** ESTILOS TABLET ***/
 @media (min-width: 768px) {
@@ -178,7 +193,8 @@ h1 {
 
     /* estilos sección formación académica */
     #CONTENEDOR-LANDING .seccion-formacion {
-        margin-top: 20rem;
+        margin: 20rem auto 0 auto;
+        max-width: 800px;
     }
     #CONTENEDOR-LANDING .seccion-formacion img {
         width: 35%;
@@ -199,10 +215,22 @@ h1 {
 
     /* estilos sección herramientas */
     #CONTENEDOR-LANDING .contenedor-iconos-herramientas {
-        max-width: 50%;
+        max-width: 800px;
     }
     .contenedor-icono1 {
         flex: 10%;
+    }
+
+    /* estilos sección experiencia */
+    #CONTENEDOR-LANDING .contenedor-carrusel-experiencia {
+        max-width: 800px;
+        margin: auto;
+    }
+    #CONTENEDOR-LANDING .contenedor-carrusel-experiencia h5 {
+        font-size: 1.2rem;
+    }
+    #CONTENEDOR-LANDING .contenedor-carrusel-experiencia p {
+        font-size: 1rem;
     }
 }
 
