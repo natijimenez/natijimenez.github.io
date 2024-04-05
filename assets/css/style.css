@@ -16,7 +16,7 @@
 
 /* tamaño fuentes */
 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 h2 {
@@ -24,7 +24,7 @@ h2 {
     font-weight: 700;
 }
 h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     font-family: "Playpen Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -70,7 +70,7 @@ h1 {
 #CONTENEDOR-LANDING .titulo-box-derecha {
     color: var(--blanco);
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 20%;
     right: 20%;
 }
@@ -80,7 +80,7 @@ h1 {
     position: absolute;
     font-size: 1rem;
     text-align: center;
-    top: 55%;
+    top: 50%;
     left: 20%;
     right: 20%;
 }
@@ -89,6 +89,24 @@ h1 {
     max-width: 15rem;
     margin: auto;
 }
+
+/* estilos sección formación académica */
+#CONTENEDOR-LANDING .seccion-formacion {
+    margin-top: 20rem;
+    text-align: center;
+    display: block;
+}
+#CONTENEDOR-LANDING .contenedor-formacion {
+    margin-top: 2rem;
+}
+#CONTENEDOR-LANDING .seccion-formacion img {
+    width: 30%;
+    filter: grayscale(10%);
+}
+#CONTENEDOR-LANDING .texto-formacion1 {
+    margin-top: 1rem;
+}
+
 
 /*** ESTILOS TABLET ***/
 @media (min-width: 768px) {
@@ -104,7 +122,6 @@ h1 {
     }
     #CONTENEDOR-LANDING .texto-box-derecha {
         top: 65%;
-      
     }
 }
 
@@ -112,19 +129,47 @@ h1 {
 @media (min-width: 1024px) {
     /* tamaño fuentes */
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
+    /* estilos sección navbar */
+    #CONTENEDOR-LANDING .contenedor-navbar {
+        width: 70%;
+    }
+
+    /* estilos sección header*/
     #CONTENEDOR-LANDING .titulo-box-derecha {
-        top: 55%;
+        top: 45%;
     }
     #CONTENEDOR-LANDING .texto-box-derecha {
         font-size: 1.2rem;
-        top: 72%;
+        top: 70%;
         max-width: 500px;
         margin: auto;
     }
     #CONTENEDOR-LANDING .box-derecha {
-        height: 40vh;
+        height: 400px;
+    }
+
+    /* estilos sección formación académica */
+    #CONTENEDOR-LANDING .seccion-formacion {
+        margin-top: 20rem;
+    }
+    #CONTENEDOR-LANDING .seccion-formacion img {
+        width: 35%;
+        filter: grayscale(100%);
+    }
+    #CONTENEDOR-LANDING .seccion-formacion img:hover {
+        filter: grayscale(10%);
+    }
+    #CONTENEDOR-LANDING .contenedor-formacion {
+        display: flex;
+        justify-content: center;
+        margin: 3rem auto;
+    }
+    #CONTENEDOR-LANDING .texto-formacion2,
+    #CONTENEDOR-LANDING .texto-formacion3 {
+        margin-top: 1rem;
     }
 }
+
