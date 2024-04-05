@@ -2,10 +2,7 @@
 /* ESTILOS GENERALES */
 /* paleta de colores */
 :root {
-    --verde: #22e3b3; 
     --celeste: #3ac5eb ;
-    --salmon: #FA7C92;
-    --amarillo: #FFF7C0;
     --blanco: #ffffff;
     --negro: #000000;
     --gris: #939494;
@@ -13,7 +10,6 @@
 * {
     font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
 }
-
 /* tamaño fuentes */
 p {
     font-size: 1rem;
@@ -29,7 +25,6 @@ h1 {
     font-weight: 700;
     font-family: "Playpen Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
-
 /* estilos sección navbar */
 #CONTENEDOR-LANDING .navbar {
     background-color: var(--blanco);
@@ -53,7 +48,6 @@ h1 {
     color: var(--negro);
     font-weight: bold;
 }
-
 /* estilos sección header */
 #CONTENEDOR-LANDING header {
     margin-top: 3rem;
@@ -90,7 +84,6 @@ h1 {
     max-width: 15rem;
     margin: auto;
 }
-
 /* estilos sección formación académica */
 #CONTENEDOR-LANDING .seccion-formacion {
     margin-top: 20rem;
@@ -131,7 +124,6 @@ h1 {
 #CONTENEDOR-LANDING .seccion-herramientas img {
     max-width: 60px;
 }
-
 /* estilos sección experiencia */
 #CONTENEDOR-LANDING .seccion-experiencia {
     text-align: center;
@@ -147,7 +139,6 @@ h1 {
 #CONTENEDOR-LANDING .contenedor-carrusel-experiencia p {
     font-size: 0.8rem;
 }
-
 /* estilos sección portafolio */
 #CONTENEDOR-LANDING .seccion-portafolio {
     text-align: center;
@@ -163,6 +154,13 @@ h1 {
     margin-bottom: 0.5rem;
     width: 100%;
 }
+/* estilos sección contacto */
+#CONTENEDOR-LANDING .seccion-contacto {
+    background-color: var(--celeste);
+    margin-top: 5rem;
+}
+
+
 
 /*** ESTILOS TABLET ***/
 @media (min-width: 768px) {
@@ -195,18 +193,18 @@ h1 {
     }
 }
 
+
+
 /*** ESTILOS DESKTOP ***/
 @media (min-width: 1024px) {
     /* tamaño fuentes */
     h1 {
         font-size: 3rem;
     }
-
     /* estilos sección navbar */
     #CONTENEDOR-LANDING .contenedor-navbar {
         width: 70%;
     }
-
     /* estilos sección header*/
     #CONTENEDOR-LANDING .titulo-box-derecha {
         top: 45%;
@@ -220,7 +218,6 @@ h1 {
     #CONTENEDOR-LANDING .box-derecha {
         height: 400px;
     }
-
     /* estilos sección formación académica */
     #CONTENEDOR-LANDING .seccion-formacion {
         margin: 20rem auto 0 auto;
@@ -242,7 +239,6 @@ h1 {
     #CONTENEDOR-LANDING .texto-formacion3 {
         margin-top: 1rem;
     }
-
     /* estilos sección herramientas */
     #CONTENEDOR-LANDING .contenedor-iconos-herramientas {
         max-width: 800px;
@@ -250,7 +246,6 @@ h1 {
     .contenedor-icono1 {
         flex: 10%;
     }
-
     /* estilos sección experiencia */
     #CONTENEDOR-LANDING .contenedor-carrusel-experiencia {
         max-width: 800px;
@@ -262,7 +257,10 @@ h1 {
     #CONTENEDOR-LANDING .contenedor-carrusel-experiencia p {
         font-size: 1rem;
     }
-
-
+    /* estilos sección contacto */
+    #CONTENEDOR-LANDING .seccion-contacto form {
+        max-width: 800px;
+        margin: auto;
+    }
 }
 
