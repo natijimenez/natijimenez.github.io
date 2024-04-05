@@ -97,7 +97,7 @@ h1 {
     display: block;
 }
 #CONTENEDOR-LANDING .contenedor-formacion {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 #CONTENEDOR-LANDING .seccion-formacion img {
     width: 30%;
@@ -105,6 +105,31 @@ h1 {
 }
 #CONTENEDOR-LANDING .texto-formacion1 {
     margin-top: 1rem;
+}
+#CONTENEDOR-LANDING .nota-margen {
+    font-size: 0.8rem;
+}
+/* estilos sección herramientas */
+#CONTENEDOR-LANDING .seccion-herramientas {
+    margin-top: 5rem;
+}
+#CONTENEDOR-LANDING h2 {
+    margin-bottom: 3rem;
+}
+#CONTENEDOR-LANDING .contenedor-iconos-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.contenedor-icono1 {
+    flex: 30%;
+    margin-bottom: 1rem;
+}
+#CONTENEDOR-LANDING .seccion-herramientas img {
+    max-width: 60px;
+    
 }
 
 
@@ -170,6 +195,14 @@ h1 {
     #CONTENEDOR-LANDING .texto-formacion2,
     #CONTENEDOR-LANDING .texto-formacion3 {
         margin-top: 1rem;
+    }
+
+    /* estilos sección herramientas */
+    #CONTENEDOR-LANDING .contenedor-iconos-herramientas {
+        max-width: 50%;
+    }
+    .contenedor-icono1 {
+        flex: 10%;
     }
 }
 
